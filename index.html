@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introductie tot Git</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #666;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Introductie tot Git</h1>
+</header>
+
+<section>
+    <h2>Wat is Git?</h2>
+    <img src="images/git-staging-workflow.png" alt="Git workflow" width="500" height="600">
+    <p>Git is een versiebeheersysteem dat wordt gebruikt voor het bijhouden van wijzigingen in computerbestanden en het coördineren van werk tussen meerdere mensen.</p>
+</section>
+
+<section>
+    <h2>Waarom Git gebruiken?</h2>
+    <ul>
+        <li><strong>Versiebeheer:</strong> Houdt de geschiedenis van je project bij.</li>
+        <li><strong>Samenwerking:</strong> Maakt het gemakkelijk om samen te werken met anderen.</li>
+        <li><strong>Branching:</strong> Mogelijkheid om nieuwe functies uit te proberen zonder de hoofdcode aan te passen.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Basiscommando's</h2>
+    <p>Hier zijn enkele belangrijke Git-commando's:</p>
+    <ul>
+        <li><code>git init</code> - Maak een nieuwe Git-repository aan.</li>
+        <li><code>git clone [repository-url]</code> - Kopieer een bestaande Git-repository.</li>
+        <li><code>git add [bestand]</code> - Voeg wijzigingen toe aan de staging area.</li>
+        <li><code>git commit -m "bericht"</code> - Sla de staged wijzigingen op.</li>
+        <li><code>git push</code> - Stuur je wijzigingen naar de remote repository.</li>
+        <li><code>git pull</code> - Haal de laatste wijzigingen van de remote repository op.</li>
+        <li><code>git status</code> - Beschrijft de huidige status van de git repository. Er wordt verwezen naar de status van bekende en onbekende bestanden.</li>
+        <li><code>git log</code> - Laat de geschiedenis zien van de git repository</li>
+        <li><code>git diff</code> - Toont de wijzigingen per file.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 Git Introductie</p>
+</footer>
+
+</body>
+</html>
